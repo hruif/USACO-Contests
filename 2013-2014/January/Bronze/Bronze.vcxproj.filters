@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="wormhole.cpp">
+    <ClCompile Include="bteams.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="wormhole.in">
+    <None Include="bteams.in">
       <Filter>Source Files</Filter>
     </None>
-    <None Include="wormhole.out">
+    <None Include="bteams.out">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>

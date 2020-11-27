@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{dc9d5793-9795-4df8-8695-e23c4df518d9}</ProjectGuid>
+    <ProjectGuid>{8398ecbe-a357-4eaa-839f-92609a1006c9}</ProjectGuid>
     <RootNamespace>Bronze</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -139,11 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="wormhole.in" />
-    <None Include="wormhole.out" />
+    <None Include="bteams.in" />
+    <None Include="bteams.out" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="wormhole.cpp" />
+    <ClCompile Include="bteams.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
