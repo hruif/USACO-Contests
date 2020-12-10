@@ -13,7 +13,13 @@ string s;
 void dfstl(int x, int y) {
 	s.push_back(grid[x][y]);
 	if (s.size() == N) {
+		s.push_back(x);
+		s.push_back(' ');
+		s.push_back(y);
 		us.insert(s);
+		s.pop_back();
+		s.pop_back();
+		s.pop_back();
 		s.pop_back();
 		return;
 	}
@@ -30,9 +36,22 @@ void dfstl(int x, int y) {
 void dfsbr(int x, int y) {
 	s.push_back(grid[x][y]);
 	if (s.size() == N) {
-		if (usf.find(s) == usf.end() && us.find(s) != us.end()) {
-			usf.insert(s);
-			total++;
+		s.push_back(x);
+		s.push_back(' ');
+		s.push_back(y);
+		if (us.find(s) != us.end()) {
+			s.pop_back();
+			s.pop_back();
+			s.pop_back();
+			if (usf.find(s) == usf.end()) {
+				usf.insert(s);
+				total++;
+			}
+		}
+		else {
+			s.pop_back();
+			s.pop_back();
+			s.pop_back();
 		}
 		s.pop_back();
 		return;
