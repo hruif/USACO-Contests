@@ -20,7 +20,7 @@ int main() {
 	int gtop = p2 - p1;
 	g1 -= gtop;
 	int stog = g2 - g1;
-	s1 - stog;
+	s1 -= stog;
 	int btos = s2 - s1;
 	fout << btos << '\n'
 		<< stog << '\n'
