@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -19,17 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="poetry.cpp" />
-    <ClCompile Include="shortcut.cpp" />
+    <ClCompile Include="angry.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="shortcut.in" />
-    <None Include="shortcut.out" />
+    <None Include="angry.in" />
+    <None Include="angry.out" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f06c687b-0aff-4400-aa93-138b862b1eb5}</ProjectGuid>
+    <ProjectGuid>{9b68b078-c05e-448c-a0f1-b961394b1692}</ProjectGuid>
     <RootNamespace>Gold</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -128,7 +127,6 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <StackReserveSize>40960000</StackReserveSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

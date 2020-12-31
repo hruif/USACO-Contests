@@ -16,10 +16,12 @@ ll words[5001][5001];
 ll endclass[5001];
 
 ll exponentiate(ll base, ll ex) {
+	if (base == 0) return 0;
+	if (base == 1) return 1;
+
 	if (ex == 0) return 1;
 	if (ex == 1) return base % MOD;
 	ll val = exponentiate(base, ex / 2);
-	if (val < 0) cin >> val;
 	val *= val;
 	val %= MOD;
 	if (ex % 2 == 1) val *= base;
@@ -72,6 +74,7 @@ int main() {
 	for (int i = 0; i < 5001; i++) {
 		built[i] = 5001;
 	}
+	waysfrom[0] = 1;
 	for (int i = 0; i < K; i++) {
 		findfroms(0, i);
 	}
@@ -85,7 +88,6 @@ int main() {
 		ll sum = 0;
 		for (int j = 1; j <= N; j++) {
 			ll val = exponentiate(endclass[j], schemes[i]);
-			if (val < 0) cin >> val;
 			sum += val;
 			sum %= MOD;
 		}

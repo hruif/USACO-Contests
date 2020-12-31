@@ -15,18 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="shortcut.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="poetry.cpp">
+    <ClCompile Include="angry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="shortcut.in">
+    <None Include="angry.in">
       <Filter>Source Files</Filter>
     </None>
-    <None Include="shortcut.out">
+    <None Include="angry.out">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
