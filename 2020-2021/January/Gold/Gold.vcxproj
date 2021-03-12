@@ -19,18 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="circlecross.cpp" />
-    <ClCompile Include="nocross.cpp" />
-    <ClCompile Include="visitfj.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="circlecross.in" />
-    <None Include="circlecross.out" />
+    <ClCompile Include="p1.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a3651641-4909-4028-91cf-d1471f33cdf9}</ProjectGuid>
+    <ProjectGuid>{aebca125-4997-4c9a-aa9c-4145b3257c6b}</ProjectGuid>
     <RootNamespace>Gold</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

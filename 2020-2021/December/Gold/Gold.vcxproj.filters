@@ -15,19 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dream.cpp">
+    <ClCompile Include="p3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cardgame.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="dream.in">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="dream.out">
-      <Filter>Source Files</Filter>
-    </None>
   </ItemGroup>
 </Project>

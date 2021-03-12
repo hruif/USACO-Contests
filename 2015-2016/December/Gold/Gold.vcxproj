@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="cardgame.cpp" />
     <ClCompile Include="dream.cpp" />
   </ItemGroup>
   <ItemGroup>
