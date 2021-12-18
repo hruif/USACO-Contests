@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="timeline.cpp">
+    <ClCompile Include="deleg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="timeline.in">
+    <None Include="deleg.in">
       <Filter>Source Files</Filter>
     </None>
-    <None Include="timeline.out">
+    <None Include="deleg.out">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
