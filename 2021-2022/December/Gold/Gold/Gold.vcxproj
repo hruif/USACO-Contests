@@ -19,13 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="3.cpp" />
+    <ClCompile Include="1.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1fb7bc6e-fa4e-42bc-b5ad-c9f2fb51dd55}</ProjectGuid>
-    <RootNamespace>December</RootNamespace>
+    <ProjectGuid>{1458e8c7-88de-4d95-9be6-dab52a1aa4dd}</ProjectGuid>
+    <RootNamespace>Gold</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

@@ -15,16 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="standingout.cpp">
+    <ClCompile Include="1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="standingout_sol.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="standingout.out">
-      <Filter>Source Files</Filter>
-    </None>
   </ItemGroup>
 </Project>
